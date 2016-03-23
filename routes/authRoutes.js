@@ -3,30 +3,6 @@ var authRouter = express.Router();
 var passport = require('passport');
 var mongodb = require('mongodb').MongoClient;
 
-
-//authRouter.post('/signup', function(req, res){
-//    console.log(req.body);
-//    return res.json('hello');
-//});
-
-var router = function () {
-    //authRouter.route('/signup')
-    //    .post(function (req, res) {
-    //        console.log(req.body);
-    //        res.json('helllo how areYOu');
-    //        //req.login(req.body, function () {
-    //        //    res.redirect('/auth/profile');
-    //        //});
-    //    });
-
-    authRouter.route('/profile')
-        .get(function (req, res) {
-            res.json("hello");
-        });
-
-    return authRouter;
-};
-
 authRouter.route('/signup')
     .post(function (req, res) {
         console.log(req.body);
@@ -51,8 +27,17 @@ authRouter.route('/signup')
 authRouter.route('/login').post(passport.authenticate('local', {
     failureRedirect: '/login'
 }), function (req, res) {
-    res.redirect('/auth/profile');
+    if (isMobileRequest(req)) {
+        res.json(req.user);
+    } else {
+        res.redirect('/auth/profile');
+    }
 });
+
+var isMobileRequest = function (req) {
+    return req.body.mobile;
+};
+
 
 authRouter.route('/profile')
     .all(function (req, res, next) {
@@ -62,7 +47,14 @@ authRouter.route('/profile')
         next();
     })
     .get(function (req, res) {
-        res.send(req.user);
+        if (isMobileRequest(req)) {
+            return res.json({
+                user: req.user,
+                token: "12fkoee4d8e6e"
+            });
+        } else {
+            res.redirect('/profile');
+        }
     });
 
 

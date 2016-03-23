@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var passport = require('passport');
 
 router.get('/', function (req, res, next) {
     res.render('index', {title: 'Express'});
@@ -19,7 +20,11 @@ router.get('/register', function (req, res, next) {
 });
 
 router.get('/login', function (req, res, next) {
-    res.render('login');
+    if (req.isAuthenticated()) {
+        res.redirect('auth/profile');
+    } else {
+        res.render('login');
+    }
 });
 
 /**----------------------------
@@ -36,6 +41,11 @@ router.get('/form_advanced', function (req, res, next) {
 
 router.get('/form_basic', function (req, res, next) {
     res.render('form_basic');
+});
+
+router.get('/logout', function (req, res) {
+    req.logOut();
+    res.redirect('/login');
 });
 
 module.exports = router;

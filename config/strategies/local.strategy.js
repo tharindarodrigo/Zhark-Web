@@ -20,13 +20,13 @@ module.exports = function () {
                         var user = results;
                         done(null, user);
                     } else {
-                        done(null, false, {
+
+
+                        done(null, null, {
                             message: 'Bad Password'
                         });
                     }
-
                 });
             });
-
         }));
 };
