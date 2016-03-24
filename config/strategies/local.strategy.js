@@ -1,6 +1,8 @@
 var passport = require('passport'),
     LocalStrategy = require('passport-local').Strategy,
-    mongodb = require('mongodb').MongoClient;
+    mongodb = require('mongodb').MongoClient,
+    passwordHash = require('password-hash');
+
 
 module.exports = function () {
     passport.use(new LocalStrategy({
@@ -15,12 +17,11 @@ module.exports = function () {
                 collection.findOne({
                     username: username
                 }, function (err, results) {
-                    if (results.password === password) {
+                    if (passwordHash.verify(password,results.password)) {
                         console.log('shape');
                         var user = results;
                         done(null, user);
                     } else {
-
 
                         done(null, null, {
                             message: 'Bad Password'

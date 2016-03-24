@@ -2,6 +2,7 @@ var express = require('express');
 var authRouter = express.Router();
 var passport = require('passport');
 var mongodb = require('mongodb').MongoClient;
+var passwordHash = require('password-hash');
 
 authRouter.route('/signup')
     .post(function (req, res) {
@@ -11,15 +12,34 @@ authRouter.route('/signup')
 
         mongodb.connect(url, function (err, db) {
             var collection = db.collection('users');
+            var groups =[];
+            switch(req.body.group){
+                case "user":
+                    groups = ["user"];
+                    break;
+                case "powerUser":
+                    groups = ['power_user', 'user'];
+                    break;
+                case "admin":
+                    groups = ['admin', 'power_user', 'user'];
+                    break;
+            }
+
             var user = {
+                first_name: req.body.first_name,
+                last_name: req.body.last_name,
                 username: req.body.username,
-                password: req.body.password
+                password: passwordHash.generate(req.body.password),
+                email: req.body.email,
+                group: groups
             };
 
-            collection.insert(user, function (err, results) {
-                req.login(results.ops[0], function () {
+            console.log(user);
+
+            collection.insertOne(user, function (err, results) {
+                //req.login(results.ops[0], function () {
                     res.redirect('/login');
-                });
+                //});
             });
         });
     });
