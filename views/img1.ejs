@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <% include layout/header %>
+
+</head>
+
+<body class="">
+
+<div id="wrapper">
+
+    <% include layout/sidebar %>
+
+    <div id="page-wrapper" class="gray-bg">
+
+        <% include layout/navbar %>
+
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-sm-4">
+                <h2>This is main title</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="index.html">This is</a>
+                    </li>
+                    <li class="active">
+                        <strong>Breadcrumb</strong>
+                    </li>
+                </ol>
+            </div>
+            <div class="col-sm-8">
+                <div class="title-action">
+                    <a href="" class="btn btn-primary">This is action area</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>Big gallery carousel</h5>
+
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <i class="fa fa-wrench"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-user">
+                                <li><a href="#">Config option 1</a>
+                                </li>
+                                <li><a href="#">Config option 2</a>
+                                </li>
+                            </ul>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        <!--<div class="carousel slide" id="carousel3">-->
+                        <!--<div class="carousel-inner">-->
+                        <div class="item gallery active left">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <!--<a href="control_panel/img1">-->
+                                    <img id="imageMap" usemap="#Map" alt="image" width="100%" class="img-responsive"
+                                         src="../img/rooms/room1.jpg">
+                                    <!--</a>-->
+                                    <map name="Map" id="Map">
+                                        <area alt="bulb1" title="" href="#" shape="rect" coords="184,59,222,88"
+                                              id="bulb1"/>
+                                        <area alt="bulb2" title="" href="#" shape="rect" coords="496,58,533,90"
+                                              id="bulb2"/>
+                                        <area alt="bulb3" title="" href="#" shape="rect" coords="809,56,841,88"
+                                              id="bulb3"/>
+                                        <area alt="bulb4" title="" href="#" shape="rect" coords="1089,56,1125,95"
+                                              id="bulb4"/>
+                                        <area alt="bulb5" title="" href="#" shape="rect" coords="1404,59,1428,92"
+                                              id="bulb5"/>
+                                        <area alt="tv1" title="" href="#" shape="rect" coords="862,487,1058,602"
+                                              id="tv1"/>
+                                        <area alt="lamp1" title="" href="#" shape="rect" coords="542,604,600,636"
+                                              id="lamp1"/>
+                                    </map>
+                                </div>
+
+
+                                <!--</div>-->
+                                <!--</div>-->
+
+                            </div>
+                            <!--<a data-slide="prev" href="#carousel3" class="left carousel-control">-->
+                            <!--<span class="icon-prev"></span>-->
+                            <!--</a>-->
+                            <!--<a data-slide="next" href="#carousel3" class="right carousel-control">-->
+                            <!--<span class="icon-next"></span>-->
+                            <!--</a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <% include layout/footer %>
+
+    </div>
+</div>
+
+<!-- Mainly scripts -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+<!-- Custom and plugin javascript -->
+<script src="js/inspinia.js"></script>
+<script src="js/plugins/pace/pace.min.js"></script>
+
+<script src="js/imageMapResizer.min.js"></script>
+<script>
+    $(document).ready(function (e) {
+        $('#Map').imageMapResize();
+
+    });
+
+</script>
+</body>
+
+</html>

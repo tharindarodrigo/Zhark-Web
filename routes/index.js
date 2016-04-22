@@ -48,4 +48,17 @@ router.get('/logout', function (req, res) {
     res.redirect('/login');
 });
 
+router.get('/carousel', function (req, res) {
+    res.render('carousel');
+});
+
+router.get('/control-panel', function (req, res) {
+    res.render('control_panel');
+});
+router.get('/control-panel-img1', function (req, res) {
+    res.render('img1');
+});
+
+
+
 module.exports = router;
