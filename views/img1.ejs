@@ -4,6 +4,7 @@
 <head>
 
     <% include layout/header %>
+    <link rel="stylesheet" href="css/plugins/switchery/switchery.css">
 
 </head>
 
@@ -71,24 +72,226 @@
                                          src="../img/rooms/room1.jpg">
                                     <!--</a>-->
                                     <map name="Map" id="Map">
-                                        <area alt="bulb1" title="" href="#" shape="rect" coords="184,59,222,88"
-                                              id="bulb1"/>
-                                        <area alt="bulb2" title="" href="#" shape="rect" coords="496,58,533,90"
-                                              id="bulb2"/>
-                                        <area alt="bulb3" title="" href="#" shape="rect" coords="809,56,841,88"
-                                              id="bulb3"/>
-                                        <area alt="bulb4" title="" href="#" shape="rect" coords="1089,56,1125,95"
-                                              id="bulb4"/>
-                                        <area alt="bulb5" title="" href="#" shape="rect" coords="1404,59,1428,92"
-                                              id="bulb5"/>
-                                        <area alt="tv1" title="" href="#" shape="rect" coords="862,487,1058,602"
-                                              id="tv1"/>
-                                        <area alt="lamp1" title="" href="#" shape="rect" coords="542,604,600,636"
-                                              id="lamp1"/>
+                                        <area alt="bulb1" title="" shape="rect" coords="184,59,222,88"
+                                              id="bulb1" data-toggle="modal" data-target="#myModal1" class="device"/>
+                                        <area alt="bulb2" title="" shape="rect" coords="496,58,533,90"
+                                              id="bulb2" data-toggle="modal" data-target="#myModal2" class="device"/>
+                                        <area alt="bulb3" title="" shape="rect" coords="809,56,841,88"
+                                              id="bulb3" data-toggle="modal" data-target="#myModal3" class="device"/>
+                                        <area alt="bulb4" title="" shape="rect" coords="1089,56,1125,95"
+                                              id="bulb4" data-toggle="modal" data-target="#myModal4" class="device"/>
+                                        <area alt="bulb5" title="" shape="rect" coords="1404,59,1428,92"
+                                              id="bulb5" data-toggle="modal" data-target="#myModal5" class="device"/>
+                                        <area alt="tv1" title="" shape="rect" coords="862,487,1058,602"
+                                              id="tv1" data-toggle="modal" data-target="#myModal6" class="device"/>
+                                        <area alt="lamp1" title="" shape="rect" coords="542,604,600,636"
+                                              id="lamp1" data-toggle="modal" data-target="#myModal7" class="device"/>
                                     </map>
                                 </div>
 
+                                <div class="modal inmodal fade" id="myModal1" tabindex="-1" role="dialog"
+                                     aria-hidden="true" style="background-color: transparent; display: none;">
+                                    <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"><span
+                                                            aria-hidden="true">×</span><span
+                                                            class="sr-only">Close</span></button>
+                                                <h4 class="modal-title">Bulb1</h4>
+                                                <small class="font-bold"></small>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="ibox" align="center">
+                                                    <span style="font-weight: bold;">OFF</span>
+                                                    <input type="checkbox" class="js-switch" checked=""
+                                                           data-switchery="true" style="display: none;">
+                                                    <span style="font-weight: bold;">ON</span>
 
+                                                </div>
+
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-white" data-dismiss="modal">Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal inmodal fade" id="myModal2" tabindex="-1" role="dialog"
+                                     aria-hidden="true" style="background-color: transparent; display: none;">
+                                    <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"><span
+                                                            aria-hidden="true">×</span><span
+                                                            class="sr-only">Close</span></button>
+                                                <h4 class="modal-title">Bulb2</h4>
+                                                <small class="font-bold"></small>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="ibox" align="center">
+                                                    <span style="font-weight: bold;">OFF</span>
+                                                    <input type="checkbox" class="js-switch-2" checked=""
+                                                           data-switchery="true" style="display: none;">
+                                                    <span style="font-weight: bold;">ON</span>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-white" data-dismiss="modal">Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal inmodal fade" id="myModal3" tabindex="-1" role="dialog"
+                                     aria-hidden="true" style="background-color: transparent; display: none;">
+                                    <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"><span
+                                                            aria-hidden="true">×</span><span
+                                                            class="sr-only">Close</span></button>
+                                                <h4 class="modal-title">Bulb3</h4>
+                                                <small class="font-bold"></small>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="ibox" align="center">
+                                                    <span style="font-weight: bold;">OFF</span>
+                                                    <input type="checkbox" class="js-switch-3" checked=""
+                                                           data-switchery="true" style="display: none;">
+                                                    <span style="font-weight: bold;">ON</span>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-white" data-dismiss="modal">Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal inmodal fade" id="myModal4" tabindex="-1" role="dialog"
+                                     aria-hidden="true" style="background-color: transparent; display: none;">
+                                    <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"><span
+                                                            aria-hidden="true">×</span><span
+                                                            class="sr-only">Close</span></button>
+                                                <h4 class="modal-title">Bulb4</h4>
+                                                <small class="font-bold"></small>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="ibox" align="center">
+                                                    <span style="font-weight: bold;">OFF</span>
+                                                    <input type="checkbox" class="js-switch-4" checked=""
+                                                           data-switchery="true" style="display: none;">
+                                                    <span style="font-weight: bold;">ON</span>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-white" data-dismiss="modal">Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal inmodal fade" id="myModal5" tabindex="-1" role="dialog"
+                                     aria-hidden="true" style="background-color: transparent; display: none;">
+                                    <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"><span
+                                                            aria-hidden="true">×</span><span
+                                                            class="sr-only">Close</span></button>
+                                                <h4 class="modal-title">Bulb5</h4>
+                                                <small class="font-bold"></small>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="ibox" align="center">
+                                                    <span style="font-weight: bold;">OFF</span>
+                                                    <input type="checkbox" class="js-switch-5" checked=""
+                                                           data-switchery="true" style="display: none;">
+                                                    <span style="font-weight: bold;">ON</span>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-white" data-dismiss="modal">Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal inmodal fade" id="myModal6" tabindex="-1" role="dialog"
+                                     aria-hidden="true" style="background-color: transparent; display: none;">
+                                    <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"><span
+                                                            aria-hidden="true">×</span><span
+                                                            class="sr-only">Close</span></button>
+                                                <h4 class="modal-title">Bulb1</h4>
+                                                <small class="font-bold"></small>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="ibox" align="center">
+                                                    <span style="font-weight: bold;">OFF</span>
+                                                    <input type="checkbox" class="js-switch-2" checked=""
+                                                           data-switchery="true" style="display: none;">
+                                                    <span style="font-weight: bold;">ON</span>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-white" data-dismiss="modal">Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal inmodal fade" id="myModal7" tabindex="-1" role="dialog"
+                                     aria-hidden="true" style="background-color: transparent; display: none;">
+                                    <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"><span
+                                                            aria-hidden="true">×</span><span
+                                                            class="sr-only">Close</span></button>
+                                                <h4 class="modal-title">Bulb1</h4>
+                                                <small class="font-bold"></small>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="ibox" align="center">
+                                                    <span style="font-weight: bold;">OFF</span>
+                                                    <input type="checkbox" class="js-switch" checked=""
+                                                           data-switchery="true" style="display: none;">
+                                                    <span style="font-weight: bold;">ON</span>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-white" data-dismiss="modal">Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!--</div>-->
                                 <!--</div>-->
 
@@ -120,12 +323,32 @@
 <script src="js/inspinia.js"></script>
 <script src="js/plugins/pace/pace.min.js"></script>
 
+<script src="js/plugins/switchery/switchery.js"></script>
 <script src="js/imageMapResizer.min.js"></script>
 <script>
     $(document).ready(function (e) {
+        var elem = document.querySelector('.js-switch');
+        var init = new Switchery(elem);
+
+        var elem2 = document.querySelector('.js-switch-2');
+        var init2 = new Switchery(elem2);
+
+        var elem3 = document.querySelector('.js-switch-3');
+        var init3 = new Switchery(elem3);
+
+        var elem4 = document.querySelector('.js-switch-4');
+        var init4 = new Switchery(elem4);
+
+        var elem5 = document.querySelector('.js-switch-5');
+        var init5 = new Switchery(elem5);
         $('#Map').imageMapResize();
 
     });
+
+    //    $('.device').hover(function(e){
+    //        $(this).trigger('click').wait(1000);
+    //    });
+
 
 </script>
 </body>
