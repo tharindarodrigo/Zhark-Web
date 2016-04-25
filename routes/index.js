@@ -55,8 +55,19 @@ router.get('/carousel', function (req, res) {
 router.get('/control-panel', function (req, res) {
     res.render('control_panel');
 });
+
 router.get('/control-panel-img1', function (req, res) {
     res.render('img1');
+});
+
+router.get('/dashboard', function (req, res) {
+    res.render('dashboard');
+});
+router.get('/devices', function (req, res) {
+    res.render('devices');
+});
+router.get('/graph', function (req, res) {
+    res.render('graph_morris');
 });
 
 
