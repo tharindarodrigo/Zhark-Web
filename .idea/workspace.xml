@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dde275b-8fe3-460c-be74-b9d132f2be1e" name="Default" comment="side bar and devices pages modified">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/remote-control.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/authRoutes.js" afterPath="$PROJECT_DIR$/routes/authRoutes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/control_panel.ejs" afterPath="$PROJECT_DIR$/views/control_panel.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/dashboard.ejs" afterPath="$PROJECT_DIR$/views/dashboard.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/devices.ejs" afterPath="$PROJECT_DIR$/views/devices.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/img1.ejs" afterPath="$PROJECT_DIR$/views/img1.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout/footer.ejs" afterPath="$PROJECT_DIR$/views/layout/footer.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout/header.ejs" afterPath="$PROJECT_DIR$/views/layout/header.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout/navbar.ejs" afterPath="$PROJECT_DIR$/views/layout/navbar.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout/sidebar.ejs" afterPath="$PROJECT_DIR$/views/layout/sidebar.ejs" />
     </list>
     <ignored path="Zhark-Web.iws" />
@@ -23,7 +32,7 @@
     <favorites_list name="Zhark-Web" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3089144">
+    <splitter split-orientation="horizontal" split-proportion="0.3318623">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="passport.js" pinned="false" current-in-tab="false">
@@ -36,11 +45,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="control_panel.ejs" pinned="false" current-in-tab="true">
+          <file leaf-file-name="control_panel.ejs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/control_panel.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5151515">
-                  <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                <state vertical-scroll-proportion="-1.6727272">
+                  <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -49,25 +58,23 @@
           <file leaf-file-name="img1.ejs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/img1.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.1090908">
-                  <caret line="386" column="0" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
+                <state vertical-scroll-proportion="-2.4727273">
+                  <caret line="245" column="79" selection-start-line="245" selection-start-column="79" selection-end-line="245" selection-end-column="79" />
                   <folding>
                     <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#7;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#9;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#span#0;n#button#2;n#div#9;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#div#10;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="navbar.ejs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/views/layout/navbar.ejs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="1.2253788">
+                  <caret line="120" column="34" selection-start-line="120" selection-start-column="34" selection-end-line="120" selection-end-column="34" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -99,18 +106,18 @@
           <file leaf-file-name="header.ejs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/layout/header.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-5.230769">
-                  <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                <state vertical-scroll-proportion="-6.5384617">
+                  <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sidebar.ejs" pinned="false" current-in-tab="true">
+          <file leaf-file-name="sidebar.ejs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/layout/sidebar.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6136364">
-                  <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+                <state vertical-scroll-proportion="-2.7818182">
+                  <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -119,19 +126,32 @@
           <file leaf-file-name="dashboard.ejs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/dashboard.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-6.8">
-                  <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+                <state vertical-scroll-proportion="-4.1272726">
+                  <caret line="609" column="0" selection-start-line="609" selection-start-column="0" selection-end-line="609" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="devices.ejs" pinned="false" current-in-tab="false">
+          <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/views/layout/footer.ejs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-3.2692308">
+                  <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="devices.ejs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/devices.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-4.327273">
-                  <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-                  <folding />
+                <state vertical-scroll-proportion="0.26750448">
+                  <caret line="812" column="0" selection-start-line="812" selection-start-column="0" selection-end-line="820" selection-end-column="15" />
+                  <folding>
+                    <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -161,6 +181,16 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="authRoutes.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/routes/authRoutes.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="68" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="table_foo_table.ejs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/table_foo_table.ejs">
               <provider selected="true" editor-type-id="text-editor">
@@ -173,16 +203,6 @@
                     <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="dashboard_1.ejs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/views/dashboard_1.ejs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -241,21 +261,21 @@
         <option value="$PROJECT_DIR$/routes/userRoutes.js" />
         <option value="$PROJECT_DIR$/controllers/usersController.js" />
         <option value="$PROJECT_DIR$/config/passport.js" />
-        <option value="$PROJECT_DIR$/routes/authRoutes.js" />
         <option value="$PROJECT_DIR$/views/register.ejs" />
-        <option value="$PROJECT_DIR$/views/layout/header.ejs" />
         <option value="$PROJECT_DIR$/config/strategies/local.strategy.js" />
-        <option value="$PROJECT_DIR$/views/layout/navbar.ejs" />
-        <option value="$PROJECT_DIR$/views/img1.ejs" />
         <option value="$PROJECT_DIR$/public/js/inspinia.js" />
-        <option value="$PROJECT_DIR$/views/control_panel.ejs" />
-        <option value="$PROJECT_DIR$/views/layout/footer.ejs" />
-        <option value="$PROJECT_DIR$/views/dashboard.ejs" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/public/js/demo/morris-demo.js" />
         <option value="$PROJECT_DIR$/views/graph_morris.ejs" />
-        <option value="$PROJECT_DIR$/views/devices.ejs" />
+        <option value="$PROJECT_DIR$/views/layout/header.ejs" />
+        <option value="$PROJECT_DIR$/routes/authRoutes.js" />
+        <option value="$PROJECT_DIR$/views/control_panel.ejs" />
+        <option value="$PROJECT_DIR$/views/img1.ejs" />
+        <option value="$PROJECT_DIR$/views/layout/navbar.ejs" />
+        <option value="$PROJECT_DIR$/views/dashboard.ejs" />
+        <option value="$PROJECT_DIR$/views/layout/footer.ejs" />
         <option value="$PROJECT_DIR$/views/layout/sidebar.ejs" />
+        <option value="$PROJECT_DIR$/views/devices.ejs" />
       </list>
     </option>
   </component>
@@ -357,25 +377,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zhark-Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Zhark-Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -390,6 +392,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zhark-Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zhark-Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -420,18 +440,18 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="routes/inde&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/routes/index.js&#10;routes&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/routes/authRoutes.js&#10;dashboa&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/dashboard.ejs&#10;index&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/routes/index.js&#10;gramorris&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/graph_morris.ejs&#10;morris-&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/public/js/demo/morris-demo.js&#10;graph_mo&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/graph_morris.ejs&#10;foo&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/table_foo_table.ejs&#10;table_foo&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/table_foo_table.ejs&#10;das&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/dashboard.ejs&#10;routes/&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/routes&#10;dashboard&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/dashboard.ejs&#10;inspini&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/public/js/inspinia.js&#10;footer&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/layout/footer.ejs&#10;header&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/layout/header.ejs&#10;control_pan&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/control_panel.ejs&#10;scripts/&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/public/javascripts&#10;advanc&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/form_advanced.ejs&#10;img1&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/img1.ejs&#10;img/&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/public/img&#10;carous&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/carousel.ejs&#10;carou&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/carousel.ejs&#10;contro&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/control_panel.ejs&#10;register&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/register.ejs&#10;auth&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/routes/authRoutes.js&#10;user&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/routes/userRoutes.js&#10;login&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/login.ejs&#10;log&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/login.ejs&#10;app&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/app.js&#10;ListI&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/src/components/ListItem.jsx" />
+    <property name="SearchEverywhereHistoryKey" value="side&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/layout/sidebar.ejs&#10;footer&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/layout/footer.ejs&#10;dashboar&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/dashboard.ejs&#10;navbar&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/layout/navbar.ejs&#10;nav&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/layout/navbar.ejs&#10;header&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/layout/header.ejs&#10;img&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/img1.ejs&#10;devices&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/devices.ejs&#10;control_panel&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/control_panel.ejs&#10;routes/inde&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/routes/index.js&#10;routes&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/routes/authRoutes.js&#10;dashboa&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/dashboard.ejs&#10;index&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/routes/index.js&#10;gramorris&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/graph_morris.ejs&#10;morris-&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/public/js/demo/morris-demo.js&#10;graph_mo&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/graph_morris.ejs&#10;foo&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/table_foo_table.ejs&#10;table_foo&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/table_foo_table.ejs&#10;das&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/dashboard.ejs&#10;routes/&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/routes&#10;dashboard&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/dashboard.ejs&#10;inspini&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/public/js/inspinia.js&#10;control_pan&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/control_panel.ejs&#10;scripts/&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/public/javascripts&#10;advanc&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/form_advanced.ejs&#10;img1&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/img1.ejs&#10;img/&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/public/img&#10;carous&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/carousel.ejs&#10;carou&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/carousel.ejs&#10;contro&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/control_panel.ejs&#10;register&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/register.ejs&#10;auth&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/routes/authRoutes.js&#10;user&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/routes/userRoutes.js&#10;login&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/login.ejs&#10;log&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/views/login.ejs&#10;app&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/app.js&#10;ListI&#9;FILE&#9;file://C:/Users/Inspiron/Documents/nodeProjects/Zhark-Web/src/components/ListItem.jsx" />
     <property name="nodejs_interpreter_path" value="C:\Program Files\nodejs\node.exe" />
     <property name="javascript.nodejs.core.library.configured.version" value="4.3.1" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Inspiron\Documents\nodeProjects\Zhark-Web\public\img" />
       <recent name="C:\Users\Inspiron\Documents\nodeProjects\Zhark-Web\views" />
       <recent name="C:\Users\Inspiron\Documents\nodeProjects\Zhark-Web\public\img\rooms" />
       <recent name="C:\Users\Inspiron\Documents\nodeProjects\Zhark-Web\public\js" />
       <recent name="C:\Users\Inspiron\Documents\nodeProjects\Zhark-Web\views\layout" />
-      <recent name="C:\Users\Inspiron\Documents\nodeProjects\Zhark-Web\src\components" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.bin\www">
@@ -597,7 +617,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461610322689</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="side bar and devices pages modified">
+      <created>1461610866415</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1461610866415</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -611,9 +637,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15699404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15699404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58756137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -970,52 +996,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/img1.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1090908">
-          <caret line="386" column="0" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#9;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#span#0;n#button#2;n#div#9;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#10;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/form_advanced.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.4">
           <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout/navbar.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06104129">
-          <caret line="127" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="127" selection-end-column="6" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout/footer.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21364452">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1050,38 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout/header.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/control_panel.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5151515">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/devices.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.327273">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/authRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02915952">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/graph_morris.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.0727272">
@@ -1103,19 +1055,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/dashboard.ejs">
+    <entry file="file://$PROJECT_DIR$/routes/authRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.8">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="68" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/control_panel.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6727272">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout/header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/img1.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4727273">
+          <caret line="245" column="79" selection-start-line="245" selection-start-column="79" selection-end-line="245" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout/navbar.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2253788">
+          <caret line="120" column="34" selection-start-line="120" selection-start-column="34" selection-end-line="120" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout/sidebar.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6136364">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        <state vertical-scroll-proportion="-2.7818182">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/dashboard.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1272726">
+          <caret line="609" column="0" selection-start-line="609" selection-start-column="0" selection-end-line="609" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/devices.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26750448">
+          <caret line="812" column="0" selection-start-line="812" selection-start-column="0" selection-end-line="820" selection-end-column="15" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

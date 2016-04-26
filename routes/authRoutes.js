@@ -73,7 +73,7 @@ authRouter.route('/profile')
                 token: "12fkoee4d8e6e"
             });
         } else {
-            res.redirect('/profile');
+            res.redirect('/dashboard');
         }
     });
 
